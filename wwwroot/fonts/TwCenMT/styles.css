@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'TwCenMT-Medium';
+	src: url('TwCenMT-Medium.eot?') format('eot'), 
+	     url('TwCenMT-Medium.woff') format('woff'), 
+	     url('TwCenMT-Medium.ttf')  format('truetype'),
+	     url('TwCenMT-Medium.svg#TwCenMT-Medium') format('svg');
+}

@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+	font-family:"BebasNeue";
+	src:url("../fonts/BebasNeue/BebasNeue.eot?") format("eot"),
+	url("../fonts/BebasNeue/BebasNeue.woff") format("woff"),
+	url("../fonts/BebasNeue/BebasNeue.ttf") format("truetype"),
+	url("../fonts/BebasNeue/BebasNeue.svg#BebasNeue") format("svg");
+	font-weight:normal;font-style:normal;
+	}
+
+
+	@font-face {
+	 font-family: 'TwCenMT-Medium';
+	 src: url('../fonts/TwCenMT/TwCenMT-Medium.eot?') format('eot'), 
+	 url('../fonts/TwCenMT/TwCenMT-Medium.woff') format('woff'), 
+	 url('../fonts/TwCenMT/TwCenMT-Medium.ttf')  format('truetype'),
+	 url('../fonts/TwCenMT/TwCenMT-Medium.svg#TwCenMT-Medium') format('svg');
+	}
+
+	body{
+		background-color: #ddd;
+		font-family:TwCenMT-Medium;
+		font-size:1.6em;
+
+	}
+
+
+/*======================= DATAGRID =======================*/	
+		
+	/* CAbecalho DtGrid fooTable*/	
+	table thead th {
+	background-color:#222;
+	color:white
+
+	}
+	
+	
+	/* Mouse Hover linha  DtGrid */
+	#meuGridBody tr:hover{
+	 background-color:#85BDEE;
+	}
+	
+	
+	
+	/*Cabealho de alerta modal*/
+	.modal-header{
+		background-color:#222;
+		color:#FFF;}
+		
+	.modal-header .close{color:#FFF;}
+	
+	.tabelaLinhaColorida{background-color:#ddd;}
+	.tabelaLinhaSelecionada{background-color:#bbb;}
+	
+	table tfoot  {
+	background-color:#222;
+	color:white;
+	}
+	
+	table tfoot select{color:black;}
+	table th {text-align: center;}
+		
+		
+		
+
+/*======================= FIM DATAGRID =======================*/			
+		
+	#aberturaSistema{
+	
+	background-color:black;
+	width:100%;
+	
+	color:white;
+	padding:9px;
+	font-family:"BebasNeue";
+	font-size:24px;
+	text-align:center;
+	
+	
+}		
+	
+		
+		nav{
+			
+			font-size:16px;
+			font-weight:600;
+			
+		}
+	/*Espaco abaixo do menu e radius do menu*/	
+	.navbar{margin-bottom: 0px;border-radius: 0px;}
+	
+	/*Posicao da logomarca no menu*/	
+	.navbar-brand {padding: 12px 10px;}
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+a:hover, a:active{color:#000;}
+
+
+figure img{
+	margin:10px;
+	}
+
+figcaption{
+	line-height:16px;
+	}
+/* cor fundo barra menu */
+.navbar-inverse {
+background-color: #222;
+border-color: #000;
+}
+
+
+/*CONFIG FORM LOGIN */
+	.form-signin {
+		max-width: 330px; 
+		padding: 15px;
+		margin: 0 auto;
+		}
+		
+		
+		#esqueceuSenha{
+		width:200px;
+		padding-left:20px;
+		padding-top:0;
+		padding-bottom: 20px;
+		margin: 0 auto; }	
+
+/* CSS DE ERROS E FORMULARIO */
+
+	
+		
+	    input.error,  input.error:focus {
+		border:1px solid #a94442;
+		background-color: #f2dede;
+		}
+		
+		label.error {
+		color: #a94442;
+		font-size:13px;
+		/*font-style: italic; */
+		}
+
+
+		
+		
+/* FIM CSS ERROS DE FORMULARIO */
+
+
+/*BOTAO PRIMARIO*/
+
+.btn-primary {
+  color: #fff;
+  background-color: #111;
+  border-color: #777;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #444;
+  border-color: #000;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #111;
+  border-color: #000;
+}
+
+/* PAGINACAO */
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+
+color: #ffffff;
+background-color: #222;
+border-color: #000;
+
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+color: #000;
+background-color: #eeeeee;
+border-color: #dddddd;
+}
+
+.pagination > li > a, .pagination > li > span {
+
+color: #000;
+}
+/*FIM PARAM PAGINACAO */
+
+/*COR FORMS ELEMENTS (RETIRAR GLOW DA SELECAO) */
+
+		.form-control { 
+		  -webkit-box-shadow: none;
+		  box-shadow: none;
+		  border: 1px solid #cccccc;
+		  
+		 }
+		  
+		.form-control:focus,input:focus {
+			-webkit-box-shadow:none;
+			box-shadow: none;
+			/*border: 1px solid #cccccc;*/
+		}	
+
+/* menu dropDown Bootstrap responsivel mobile*/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #333;
+}
+
+
+
+/*animacao icones menu home*/
+ figure  a img {
+	 
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.51s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+ }
+ 
+ figure a img:hover {
+	-webkit-transform: rotate(360deg) ;
+    -moz-transform: rotate(360deg) ;
+    -o-transform: rotate(360deg) ;
+    -ms-transform: rotate(360deg) ;
+    transform: rotate(360deg) ;
+  }
+
+
+
+
+
+
+/* RESPONSIVE DESIGN MOBILES
+-------------------------------------*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	 /* #quem {background-color:red;}*/
+	 
+
+   
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	
+	
+	   
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	 
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+	  
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}			
+			

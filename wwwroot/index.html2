@@ -1,0 +1,104 @@
+<?php 
+	include("include/constante.php");
+	include("include/conexao.php");
+
+
+	$SQL = "SELECT * from usuario where ativo = 1";
+	//echo $SQL; exit;
+	
+	$result = mysql_query($SQL,$conn) or die("Erro na query!<br>" . mysql_error());
+	
+	
+ 	while ($RS = mysql_fetch_array($result ,MYSQL_ASSOC)) {
+		echo $RS['login'] . '<br>';
+		}
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?= $nomeSistema ?></title>
+
+    <!-- build:css css/bootstrap.min.css --> 
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- endbuild --> 
+    <!-- build:css css/main.min.css --> 
+    <link href="css/main.css" rel="stylesheet">
+    <!-- endbuild --> 
+  </head>
+  <style>
+	
+		
+		
+
+  </style>
+  <body>
+
+       <div class="container">
+
+  <form class="form-signin" id="formulario" method="post" action="index.php?op=1">
+  <fieldset>
+    
+     
+      <img src="img/logoLogin.png" alt="Seclin" width="266" height="82" />
+    <p>
+      <label for="Usuario">usuario</label>
+      <input type="text" name="Usuario" id="Usuario"  minlength="2"  class="form-control"  placeholder="Usuario" required/>
+    </p>
+     <p>
+      <label for="senha">senha</label>
+      <input type="password" name="senha" id="senha"  minlength="2"  class="form-control"  placeholder="senha" required/>
+    </p>
+    
+    <p>
+      <label for="cemail">E-Mail (required)</label>
+      <input id="cemail" type="email" name="email" required class="form-control"  placeholder="Usuário"/>
+    </p>
+    <p>
+      <label for="curl">URL </label>
+      <input id="curl" type="url" name="url" class="form-control"/>
+    </p>
+     <p>
+      <label for="cpf">cpf </label>
+      <input id="cpf" type="cpf" name="cpf" required class="form-control" data-mask="cpf"/>
+    </p>
+    <p>
+      <label for="ccomment">Your comment </label>
+      <textarea id="ccomment" name="comment" required  class="form-control"></textarea>
+    </p>
+    <p>
+       <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    </p>
+  </fieldset>
+
+    </div> 
+
+  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- build:js js/bootstrap.min.js -->
+	<script src="js/bootstrap.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/jquery.validate/jquery.validate.min.js --> 
+    <script src="js/jquery.validate/jquery.validate.min.js"></script>
+    <script src="js/jquery.validate/jquery.validateAddBR.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/jquery.mask/jquery.mask.min.js --> 
+    <script src="js/jquery.mask/jquery.mask.js"></script>
+    <script src="js/jquery.mask/jquery.maskModel.js"></script>
+    <!-- endbuild -->
+    
+    <script>
+	
+    $(function(){
+		$("#formulario").validate();	
+	});
+    
+    </script>
+  </body>
+</html>

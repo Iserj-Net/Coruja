@@ -1,0 +1,36 @@
+[01-May-2014 20:26:03 America/Chicago] PHP Fatal error:  Function name must be a string in /home/iserj973/public_html/coruja2/index.php on line 13
+[03-May-2014 00:53:40 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/iserj973/public_html/coruja2/index.php on line 19
+[03-May-2014 01:19:30 America/Chicago] PHP Warning:  include(include/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iserj973/public_html/coruja2/index.php on line 2
+[03-May-2014 01:19:30 America/Chicago] PHP Warning:  include(include/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/iserj973/public_html/coruja2/index.php on line 2
+[03-May-2014 01:19:30 America/Chicago] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/php53/lib/php') in /home/iserj973/public_html/coruja2/index.php on line 2
+[03-May-2014 02:26:03 America/Chicago] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/iserj973/public_html/coruja2/index.php on line 4
+[03-May-2014 02:26:15 America/Chicago] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/iserj973/public_html/coruja2/index.php on line 4
+[03-May-2014 02:26:15 America/Chicago] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/iserj973/public_html/coruja2/index.php:4) in /home/iserj973/public_html/coruja2/index.php on line 24
+[03-May-2014 02:26:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iserj973/public_html/coruja2/index.php:4) in /home/iserj973/public_html/coruja2/index.php on line 27
+[03-May-2014 02:30:05 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/iserj973/public_html/coruja2/index.php on line 25
+[03-May-2014 02:40:13 America/Chicago] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/iserj973/public_html/coruja2/index.php on line 3
+[04-May-2014 22:03:30 America/Chicago] PHP Warning:  Division by zero in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 26
+[04-May-2014 22:08:48 America/Chicago] PHP Warning:  Division by zero in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 26
+[05-May-2014 01:58:21 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 01:58:29 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:00:21 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:01:33 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:02:25 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:02:42 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:06:38 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:07:01 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:07:05 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:07:47 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 53
+[05-May-2014 02:08:47 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:09:49 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:09:57 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:09:59 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:10:01 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:10:02 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:10:03 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:10:04 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:10:05 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 02:10:18 America/Chicago] PHP Warning:  Division by zero in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 27
+[05-May-2014 02:11:01 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/iserj973/public_html/coruja2/JSON_usuario.php on line 48
+[05-May-2014 22:05:19 America/Chicago] PHP Fatal error:  Call to undefined function sendEmail() in /home/iserj973/public_html/coruja2/esqueciSenha.php on line 31
+[05-May-2014 22:06:45 America/Chicago] PHP Fatal error:  Call to undefined function sendEmail() in /home/iserj973/public_html/coruja2/esqueciSenha.php on line 31
